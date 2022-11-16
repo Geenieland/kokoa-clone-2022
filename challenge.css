@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+body {
+    
+    font-family: 'open Sans', sans-serif;
+}
+.music-box {
+    width:300px;
+    height: 550px;
+    margin:50px;
+    border: 5px solid turquoise;
+}
+.status-box {
+    display: flex;
+    justify-content:center;
+    margin-top:30px;
+}
+.fa-x {
+    margin-top: 5px;
+    margin-right: 50px;
+}
+.fa-image {
+    color:white;
+}
+.status-box__playlist {
+    margin-left: 5px;
+    font-weight:bolder;
+    margin-right: 50px;
+}
+.random-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.random-image {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(231, 172, 8, 0.856);
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 20px;
+}
+.random-span {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.random-first {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.random-second {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.random-third {
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.button-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-button {
+    width:100px;
+    height: 30px;
+    margin-left: 35px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border:2px solid black;
+    border-radius: 10px;
+}
+.fa-circle-play {
+    font-size: 15px;
+}
+
+.play {
+    margin-left: 3px;
+    font-size: 15px;
+    font-style:normal;
+}
+.second-button {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.third-button {
+    width:30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.play-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-box__music {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+.second-box__music{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+.third-box__music{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+.fourth-box__music {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+.play-box__list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.first_playbox {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: -5px;
+}
+.second_playbox{
+    background-color: palevioletred;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: -5px;
+}
+.third_playbox {
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: -5px;
+}
+.fourth_playbox {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: -5px;
+}
+.playlist-title {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.playlist-name {
+    font-size: 10px;
+}
