@@ -3,12 +3,12 @@
 }
 
 .status-bar {
-    position:fixed;
+    position: sticky;
     top:0;
     box-sizing: border-box;
     width:100%;
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     padding: 5px 3px;
 }
 
